@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="todoItemBackground">#b9333333</color>
+    <color name="todoItemText">#bf0303</color>
+    <color name="todoItemDateText">#933434</color>
 </resources>

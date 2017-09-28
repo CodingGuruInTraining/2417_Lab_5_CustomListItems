@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/todoItemBackground">
 
     <TextView
         android:id="@+id/todo_item_text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/todoItemText"
+        />
 
     <TextView
         android:id="@+id/todo_item_created_date"
@@ -13,5 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
+        android:textColor="@color/todoItemDateText"
         />
 </RelativeLayout>
